@@ -1,0 +1,21 @@
+{
+  "name": "notes",
+  "version": "0.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "cross-env DEBUG=notes:* node ./app.js",
+    "server1": "cross-env DEBUG=notes:* PORT=3001 node ./app.js",
+    "server2": "cross-env DEBUG=notes:* PORT=3002 node ./app.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cross-env": "^7.0.2",
+    "debug": "^4.2.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "http-errors": "^1.8.0",
+    "morgan": "^1.10.0",
+    "serve-favicon": "^2.5.0"
+  }
+}
